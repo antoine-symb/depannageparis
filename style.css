@@ -1,0 +1,415 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} /* fin du reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * * * * * * * * Header * * * * * * * * */
+/* * * Bandeau contact d'urgence * * */
+.assistance-direct{
+    background-color: red;
+    height: 3rem;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    position: fixed;
+    width: 100%;
+}
+header{
+    position: fixed;
+}
+header nav {
+    background: white;
+    width: 100%;
+}
+.assistance-direct a {
+    color: white;
+}
+
+.nav-classic-sticky {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0 1% 7%;
+    position: fixed;
+    margin-top: 2.59rem;
+    border-bottom: 0.5px solid #2f3438;
+}
+.nav-classic-sticky a {
+    text-transform: capitalize;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 1.5% 0;
+    text-decoration: none;
+    color: #2f3438;
+    width: 25%;
+}
+.home-introduction {
+    text-align: center;
+    background-image: url("assets/appel-voiture.jpeg");
+    background-position: 50%;
+    padding: 3rem;
+    color: white;
+    height: 22rem;
+}
+.home-introduction h1 {
+    padding: 11rem 3rem;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.88rem;
+}
+.home-introduction span {
+    font-family: 'Jolly Lodger', cursive;
+    color: red;
+    margin-top: 2%;
+    font-size: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+.reassurance {
+    font-family: 'Handlee', cursive;
+    color: #2f3438;
+    text-align: center;
+    border: 1px solid #2f3438;
+    border-radius: 20px;
+    margin: 4%;
+}
+.reassurance article {
+    /*padding: 3% 0;*/
+    color: #2f3438;
+    margin:
+}
+.reassurance h1 {
+    color: #2f3438;
+    font-size: 1.25rem;
+}
+.reassurance p {
+    margin-top: 3%;
+}
+.fas {
+    font-size: 2.5rem;
+}
+.introduction-entreprise {
+    font-family: 'Handlee', cursive;
+    padding: 2% 9%;
+    text-align: center;
+    border: 1px solid #2f3438;
+    border-radius: 20px;
+    margin: 4%;
+    color: #2f3438;
+}
+.visite {
+    padding: 2% 0;
+    text-align: center;
+    color: #2f3438;
+}
+.visite a {
+    color: #2f3438;
+}
+
+article h1 {
+    font-family: 'Chango', cursive;
+    padding: 1.33rem 0px;
+    font-size: 1rem;
+}
+.coordonnees-entreprise {
+    text-align: center;
+}
+article {
+    text-align: center;
+}
+article p {
+    font-style: italic;
+}
+/*footer div {
+    width: 40%;
+    float: left;
+}*/
+.nav-footer {
+    display: inline-flex;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-footer a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    padding: 2% 0;
+    width: 50%
+}
+
+.nav-footer {
+    background: rgb(98,145,181);
+background: -moz-linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
+background: -webkit-linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
+background: linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6291b5",endColorstr="#484e72",GradientType=1);
+}
+.visite {
+    border: 0.5rem solid;
+    border-radius: 10px;
+    margin: 5% 10%;
+    padding: 3.5%;
+}
+.visite h2, .visite h3, .visite a {
+    padding: 2% 0;
+}
+/* * * * * * * * * Read more * * * * * * * * */
+.readMore {
+    border: none;
+}
+.content {
+    display: none;
+    overflow: hidden;
+    padding: 2% 6%;
+    border: 0.5px solid #2f3438;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+/* * * * * * * * * Slider de la Homepage * * * * * * * * */
+.container {
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slides {
+    display: flex;
+    height: 100%;
+}
+.slide {
+    min-width: 100%;
+}
+.slide img {
+    height: 100%;
+    width: 100%;
+}
+.slide-controls {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; 
+}
+/* PAGE CONTACT */
+.formulaire {
+    background-color: blue;
+    padding: 5% 0;
+}
+.supertitle {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+fieldset {
+    margin: 1.5% 0;
+}
+.contact {
+    width: 100%;
+    text-align: center;
+}
+input {
+    border: none;
+    padding: 1.5% 4%;
+}
+.error {
+    display: block;
+    color: red;
+}
+
+.formulaire button {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: green;
+    border: none;
+    padding: 1%;
+    border-radius: 8px;
+    margin: 1% 0;
+}
+
+
+
+.line {
+    position: static;
+    margin: 0 auto;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    /*transform: translateY(-50%);*/
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both;
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 14em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: black;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* * * * * * * * * PAGE SERVICE * * * * * * * * * * */
+/* * * * * * * * * PAGE SERVICE * * * * * * * * * * */
+/* * * * * * * * * PAGE SERVICE * * * * * * * * * * */
+
+.nav-classic-sticky-services {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 4% 7%;
+    position: fixed;
+    border-bottom: 0.5px solid #2f3438;
+}
+.nav-classic-sticky-services a {
+    text-transform: capitalize;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 1.5% 0;
+    text-decoration: none;
+    color: #2f3438;
+    width: 25%;
+}
+
+/*.services section h1 {
+    border-bottom: 0.5px solid black;
+    margin: 0 23%;
+    padding-bottom: 2%;
+}*/
+
+.services article h2:first-child {
+    padding: 2% 0 4% 0;
+    font-family: 'Chango', cursive;
+    border-bottom: 0.5px solid black;
+    margin: 0 25%;
+}
+.services h1 {
+    padding-top: 3rem;
+    font-family: 'Chango', cursive;
+    text-align: center;
+}
+.services article {
+    padding: 0% 10%;
+}
+
+.services aside {
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.services aside h2, .services aside li {
+    padding: 3% 0;
+}
+.services aside h2{
+    font-style: underline;
+    border-bottom: 0.5px white solid;
+    margin: 2% 24%;
+}
+.services article p {
+    margin-bottom: 3%;
+    padding: 5% 0 0 0;
+}
+
+.services button {
+    margin: 4% 0;
+    border: none;
+    background: green;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    padding: 5%;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.services article h3 {
+    font-family: 'Fjalla One', sans-serif;
+    padding: 3% 0;
+    font-size: 1.25rem;
+}
+
+.info-details {
+    margin-bottom: 3%;
+    padding: 5% 10%;
+}
+
+.services i.fas {
+    font-size: 1rem;
+    padding: 2.5%;
+}
+
+.services .equipements {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+}
+
+.services .info-details {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2%;
+}

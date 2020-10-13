@@ -1,0 +1,231 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} /* fin du reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* * * * * * * * * Header * * * * * * * * */
+/* * * Bandeau contact d'urgence * * */
+.assistance-direct{
+    background-color: red;
+    height: 3rem;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    position: fixed;
+    width: 100%;
+}
+header{
+    position: fixed;
+}
+header nav {
+    background: white;
+    width: 100%;
+}
+.assistance-direct a {
+    color: white;
+}
+
+.nav-classic-sticky {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0 1% 7%;
+    position: fixed;
+    margin-top: 2.59rem;
+    border-bottom: 0.5px solid black;
+}
+.nav-classic-sticky a {
+    text-transform: capitalize;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 1.5% 0;
+    text-decoration: none;
+    color: black;
+    width: 25%;
+}
+.home-introduction {
+    text-align: center;
+    background-image: url("../assets/appel-voiture.jpeg");
+    background-position: 50%;
+    padding: 3rem;
+    color: white;
+    height: 22rem;
+}
+.home-introduction h1 {
+    padding: 11rem 3rem;
+}
+.reassurance {
+    font-family: 'Handlee', cursive;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin: 2%;
+}
+.reassurance article {
+    padding: 3% 0;
+    color: black;
+}
+.reassurance h1 {
+    color: black;
+    font-size: 1.25rem;
+}
+.fas {
+    font-size: 2.5rem;
+}
+.introduction-entreprise {
+    font-family: 'Handlee', cursive;
+    padding: 2% 9%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin: 2%;
+}
+.visite {
+    padding: 2% 0;
+    text-align: center;
+    color: black;
+}
+.visite a {
+    color: black;
+}
+
+article h1 {
+    font-family: 'Chango', cursive;
+    padding-bottom: 2%;
+    padding: 1.33rem 0px;
+    font-size: 1rem;
+}
+.coordonnees-entreprise {
+    text-align: center;
+}
+article {
+    text-align: center;
+}
+article p {
+    font-style: italic;
+}
+/*footer div {
+    width: 40%;
+    float: left;
+}*/
+.nav-footer {
+    display: inline-flex;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-footer a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    padding: 2% 0;
+    width: 50%
+}
+
+.nav-footer {
+    background: rgb(98,145,181);
+background: -moz-linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
+background: -webkit-linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
+background: linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6291b5",endColorstr="#484e72",GradientType=1);
+}
+.visite {
+    border: 1rem solid;
+    margin: 5% 10%;
+    padding: 3.5%;
+}
+.visite h2, .visite h3, .visite a {
+    padding: 2% 0;
+}
+/* * * * * * * * * Read more * * * * * * * * */
+.readMore {
+    border: none;
+}
+.content {
+    display: none;
+    overflow: hidden;
+    padding: 2% 6%;
+    border: 0.5px solid black;
+    border-radius: 20%;
+    margin: 2%;
+}
+
+/* * * * * * * * * Slider de la Homepage * * * * * * * * */
+.container {
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slides {
+    display: flex;
+    height: 100%;
+}
+.slide {
+    min-width: 100%;
+}
+.slide img {
+    height: 100%;
+    width: 100%;
+}
+.slide-controls {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    
+    
+}
