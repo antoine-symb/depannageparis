@@ -37,6 +37,14 @@
                 <textarea name="message" placeholder="Votre message" value="<?= $message ?>"></textarea>
                 <span class="error"><?= $message_error ?></span>
             </fieldset>
+            <fieldset>
+                <textarea name="message" placeholder="Votre message" value="<?= $message ?>"></textarea>
+                <span class="error"><?= $message_error ?></span>
+            </fieldset>
+            <fieldset>
+                <textarea name="message" placeholder="Votre message" value="<?= $message ?>"></textarea>
+                <span class="error"><?= $message_error ?></span>
+            </fieldset>
                 <button type="submit" name="Envoyer">Envoyer votre message</button>
             </div>
         </main>
