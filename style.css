@@ -440,14 +440,27 @@ input {
     text-align: center;
 }
 
-.tarifs table {
-    display: flex;
+.tarifs table {  
     padding: 3% 2% 3% 2%;
     border: 1px solid black;
     border-radius: 6px;
     margin: 2%;
 }
+.tarifs tbody {
+    display: flex;
+}
+.tarifs thead {
+    font-family: 'Fjalla One', sans-serif;
+}
 
+.tarifs th {
+    padding: 2%;
+}
+.tarifs td {
+    display: table-cell;
+    text-align: center;
+    padding: 2%;
+}
 .tarifs section p {
     padding: 3%;
     text-align:center;
