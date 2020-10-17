@@ -419,7 +419,15 @@ input {
 /* * * * * * * * * * * * * * * * * * * */
 
 .tarifsintroduction {
-    padding: 5rem 0 1rem 0;
+    padding: 18% 3% 5% 3%;
+    font-family: 'Gochi Hand', cursive;
+}
+.tarifsintroduction p {
+    padding: 2.88% 0;
+}
+
+.tarifs span {
+    font-family: 'Gochi Hand', cursive;
 }
 .tarifs section h2 {
     text-align: center;
@@ -430,4 +438,17 @@ input {
     padding: 1.33rem 0px;
     font-size: 1rem;
     text-align: center;
+}
+
+.tarifs table {
+    display: flex;
+    padding: 3% 2% 3% 2%;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 2%;
+}
+
+.tarifs section p {
+    padding: 3%;
+    text-align:center;
 }
