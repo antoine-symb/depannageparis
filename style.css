@@ -454,14 +454,29 @@ input {
 }
 
 .tarifs th {
-    padding: 2%;
+    padding: 3%;
 }
 .tarifs td {
     display: table-cell;
     text-align: center;
-    padding: 2%;
+    padding: 6%;
 }
 .tarifs section p {
     padding: 3%;
     text-align:center;
+    font-style: italic;
 }
+.tarifs .parking span {
+    display: block;
+}
+.tarifs .parking {
+    background: url("assets/parking-emplacement.jpeg");
+    background-position: center 66%;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.tarifs .parking table{
+    border: none;
+}
+
