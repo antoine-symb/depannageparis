@@ -413,3 +413,21 @@ input {
     align-items: center;
     padding: 2%;
 }
+
+/* * * * * * * * * * * * * * * * * * * */
+        /* Page des tarifs */
+/* * * * * * * * * * * * * * * * * * * */
+
+.tarifsintroduction {
+    padding: 5rem 0 1rem 0;
+}
+.tarifs section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tarifs h3 {
+    font-family: 'Chango', cursive;
+    padding: 1.33rem 0px;
+    font-size: 1rem;
+    text-align: center;
+}
