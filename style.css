@@ -416,9 +416,11 @@ input {
     padding: 2%;
 }
 
-/* * * * * * * * * * * * * * * * * * * */
-        /* Page des tarifs */
-/* * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * *  <!-------->  TARIFS PAGE  <---------!> * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
 .tarifs article h1 {
     font-size: 1.5rem;
 }
@@ -537,9 +539,11 @@ input {
 
 
 
-
-
-/* INFORMATIONS PAGE */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * *  <!-------->  INFORMATIONS PAGE  <---------!> * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
 .decouverte {
     text-align: center;
 }
@@ -550,41 +554,121 @@ input {
     font-size: 1.3rem;
     margin: 0 1% 1% 1%;
 }
+
+.decouverte p {
+    padding: 2%;
+}
+
+.decouverte article:nth-child(3) h2 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.33rem;
+    text-transform: uppercase;
+}
+.decouverte article:nth-child(3) p {
+    color: red;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: 'Gochi Hand', cursive;
+}
 .decouverte article, .securite {
     padding: 2.5% 0;
 }
 
 .decouverte article:nth-child(3) {
-    background-color: yellow;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
 }
+.decouverte ul li {
+    padding: 3% 0;
+}
+
 .decouverte img {
     width: 50%;
     float: left;
+    margin-bottom: 2%;
 }
 .challenge {
-    padding-top: 3%;
     clear: both;
+    text-align: center;
 }
 .entreprise-annees-paris img {
     width: 50%; 
     float: left;
+    margin-bottom: 2%;
+    
+}
+.entreprise-annees-paris p {
+    font-style: normal;
+    padding: 3%;
+    font-style: italic;
+}
+
+.entreprise-annees-paris h2 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.33rem;
+    text-transform: uppercase;
+    padding: 2% 0;
+}
+.entreprise-intervention-paris p {
+    text-align: center;
+}
+
+.entreprise-intervention-paris li {
+    background-color: #2f3438;
+    color: white;
+    border-radius: 7px;
+    margin: 2% auto;
+    width: 50%;
+    padding: 1.8%;
+    text-align: center;
+}
+}
+
+
+.challenge {
+    margin: 2% 0;
+    padding: 2.5% 0;
+}
+.challenge h2 {
+    margin: 4.5% 0 1% 0;
+}
+.challenge p {
+    padding: 2% 0;
+}
+.challenge a {
+    color: black;
+}
+.challenge img {
+    width: 100%;
 }
 .entreprise-intervention-paris {
     clear: both;
+    text-align: center;
 }
 .entreprise-intervention-paris img {
     width: 50%; 
-    float: right;
+    float: left;
+   
 }
 .securite {
     clear: both;
 }
+.securite h2 {
+    margin: 2% 0;
+}
+.securite h2, .challenge h2, .entreprise-intervention-paris h2 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.3rem;
+}
 
 
 
-
-
-/* MENTIONS LEGALES */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * *  <!-------->  MENTIONS LEGALES  <---------!> * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
 .legales h1 {
     padding-top: 8rem;
 }
