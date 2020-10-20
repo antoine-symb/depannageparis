@@ -175,7 +175,8 @@ article p {
     float: left;
 }*/
 .nav-footer {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     text-align: center;
 }
@@ -184,16 +185,17 @@ article p {
     color: white;
     font-style: italic;
     padding: 2% 0;
-    width: 50%
+    width: 100%;
 }
 
 .nav-footer {
-    background: rgb(98,145,181);
+    background-color: #2f3438;
+    /*background: rgb(98,145,181);
 background: -moz-linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
 background: -webkit-linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
 background: linear-gradient(0deg, rgba(98,145,181,1) 17%, rgba(73,78,114,0.7) 65%, rgba(72,78,114,0.8) 93%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6291b5",endColorstr="#484e72",GradientType=1);
-}
+*/}
 .visite {
     border: 0.5rem solid;
     border-radius: 10px;
@@ -345,7 +347,7 @@ input {
     margin: 0 25%;
 }
 .services h1 {
-    padding-top: 3rem;
+    padding-top: 5rem;
     font-family: 'Chango', cursive;
     text-align: center;
 }
@@ -397,7 +399,7 @@ input {
 
 .services i.fas {
     font-size: 1rem;
-    padding: 2.5%;
+    padding: 4% 0;
 }
 
 .services .equipements {
@@ -417,7 +419,9 @@ input {
 /* * * * * * * * * * * * * * * * * * * */
         /* Page des tarifs */
 /* * * * * * * * * * * * * * * * * * * */
-
+.tarifs article h1 {
+    font-size: 1.5rem;
+}
 .tarifsintroduction {
     padding: 18% 3% 5% 3%;
     font-family: 'Gochi Hand', cursive;
@@ -436,19 +440,15 @@ input {
 .tarifs h3 {
     font-family: 'Chango', cursive;
     padding: 1.33rem 0px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .tarifs table {  
     padding: 3% 2% 3% 2%;
-    border: 1px solid black;
-    border-radius: 6px;
-    margin: 2%;
+    margin: 0 auto;
 }
-.tarifs tbody {
-    display: flex;
-}
+
 .tarifs thead {
     font-family: 'Fjalla One', sans-serif;
 }
@@ -459,10 +459,10 @@ input {
 .tarifs td {
     display: table-cell;
     text-align: center;
-    padding: 6%;
+    padding: 2%;
 }
 .tarifs section p {
-    padding: 3%;
+    padding: 5% 0 1% 0;
     text-align:center;
     font-style: italic;
 }
@@ -471,7 +471,8 @@ input {
 }
 .tarifs .parking {
     background: url("assets/parking-emplacement.jpeg");
-    background-position: center 66%;
+    background-position: center 65%;
+    background-position-x: 52%;
     color: white;
     font-size: 1.1rem;
 }
@@ -480,3 +481,56 @@ input {
     border: none;
 }
 
+.tarifs table {
+    border-collapse: inherit;
+}
+
+.tarifs-remorquage th:nth-child(2), .tarifs-remorquage td:nth-child(1), .tarifs-remorquage td:nth-child(2) {
+    border-right: 1px dashed black;
+    padding: 1% 4%;
+}
+
+.tarifs-remorquage th:nth-child(1) {
+    background-color: #2f3438;
+    color: white;
+    border-radius:7px;
+}
+
+.tarifs caption {
+    font-style: italic;
+    font-family: 'Gochi Hand', cursive;
+}
+.tarifs caption span {
+    display:block;
+    font-size: 1.8rem;
+}
+
+.tarifs-peripherique td {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.tarifs-peripherique th {
+    font-style: italic;
+    font-size: small;
+}
+
+.tarifs-peripherique td:nth-child(1), .tarifs-peripherique th:nth-child(1) {
+    border-right: 1px dashed black;
+}
+
+
+
+.parking li {
+
+    margin: 0 auto;
+
+}
+.parking ul {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+
+.parking {
+    margin-top: 2%;
+}
