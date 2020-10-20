@@ -534,3 +534,64 @@ input {
 .parking {
     margin-top: 2%;
 }
+
+
+
+
+
+/* INFORMATIONS PAGE */
+.decouverte {
+    text-align: center;
+}
+
+.decouverte h1 {
+    padding-top: 6.5rem;
+    font-family: 'Chango', cursive;
+    font-size: 1.3rem;
+    margin: 0 1% 1% 1%;
+}
+.decouverte article, .securite {
+    padding: 2.5% 0;
+}
+
+.decouverte article:nth-child(3) {
+    background-color: yellow;
+}
+.decouverte img {
+    width: 50%;
+    float: left;
+}
+.challenge {
+    padding-top: 3%;
+    clear: both;
+}
+.entreprise-annees-paris img {
+    width: 50%; 
+    float: left;
+}
+.entreprise-intervention-paris {
+    clear: both;
+}
+.entreprise-intervention-paris img {
+    width: 50%; 
+    float: right;
+}
+.securite {
+    clear: both;
+}
+
+
+
+
+
+/* MENTIONS LEGALES */
+.legales h1 {
+    padding-top: 8rem;
+}
+
+.legales article {
+    padding: 0 5%;
+}
+.legales article h2 {
+    margin: 3% 0;
+}
