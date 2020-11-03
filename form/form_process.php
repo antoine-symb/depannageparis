@@ -52,11 +52,7 @@ if ($name_error == '' and $email_error == '' and $phone_error == '' and $subject
         $message_body .= "$key: $value\n";
     }
 
-    $to = 'valet.antoine@gmail.com';
-    $subject = 'Contact Form submit';
-    if(mail($to, $subject, $message)){
-        $success = "Message sent, thank u";
-        $name = $email = $phone = $message = $subject = '';
+    
     }
 }
 }
@@ -68,7 +64,11 @@ if (isset($_POST['submit'])) {
     $phone = $_POST["phone"];
     $subject = $_POST["subject"];
     $message = $_POST["message"];
-
+    $to = 'valet.antoine@gmail.com';
+    $subject = 'Contact Form submit';
+    if(mail($to, $subject, $message)){
+        $success = "Message sent, thank u";
+        $name = $email = $phone = $message = $subject = '';
     
 }
 
