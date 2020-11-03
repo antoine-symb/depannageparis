@@ -1,6 +1,6 @@
 <?php
 
-print_r($_POST);
+
 
 $name_error = $email_error = $phone_error = $subject_error = $message_error = "";
 $name = $email = $phone = $subject = $message = $success = "";
@@ -52,7 +52,7 @@ if ($name_error == '' and $email_error == '' and $phone_error == '' and $subject
         $message_body .= "$key: $value\n";
     }
 
-    $to = 'deborah@asia.com';
+    $to = 'valet.antoine@gmail.com';
     $subject = 'Contact Form submit';
     if(mail($to, $subject, $message)){
         $success = "Message sent, thank u";
