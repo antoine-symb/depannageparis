@@ -62,13 +62,14 @@ if ($name_error == '' and $email_error == '' and $phone_error == '' and $subject
 }
 
 if (isset($_POST['submit'])) {
-    print_r($_POST);
-
+    
     $name = $_POST["name"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $subject = $_POST["subject"];
     $message = $_POST["message"];
+
+    
 }
 
 function test_input($data) {
