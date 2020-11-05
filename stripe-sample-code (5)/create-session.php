@@ -11,11 +11,11 @@ $checkout_session = \Stripe\Checkout\Session::create([
   'payment_method_types' => ['card'],
   'line_items' => [[
     'price_data' => [
-      'currency' => 'usd',
-      'unit_amount' => 2000,
+      'currency' => 'eur',
+      'unit_amount' => 6000,
       'product_data' => [
-        'name' => 'Stubborn Attachments',
-        'images' => ["https://i.imgur.com/EHyR2nP.png"],
+        'name' => 'Prépaiement remorquage',
+        'images' => ["../assets/remorque.jpeg"],
       ],
     ],
     'quantity' => 1,
