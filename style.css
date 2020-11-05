@@ -247,6 +247,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6291b5",endCo
     width: 100%; 
 }
 /* PAGE CONTACT */
+/*
 .formulaire {
     background-color: blue;
     padding: 5% 0;
@@ -280,7 +281,7 @@ input {
     border-radius: 8px;
     margin: 1% 0;
 }
-
+*/
 
 
 .line {
@@ -324,11 +325,12 @@ input {
     padding: 0 0 4% 7%;
     position: fixed;
     border-bottom: 0.5px solid #2f3438;
+    margin-top: 2.8rem;
 }
 .nav-classic-sticky-services a {
     text-transform: capitalize;
     font-family: 'Fjalla One', sans-serif;
-    padding: 1.5% 0;
+    padding: 5% 0 2% 0;
     text-decoration: none;
     color: #2f3438;
     width: 25%;
@@ -341,7 +343,7 @@ input {
 }*/
 
 .services article h2:first-child {
-    padding: 2% 0 4% 0;
+    padding: 10% 0 4% 0;
     font-family: 'Chango', cursive;
     border-bottom: 0.5px solid black;
     margin: 0 25%;
@@ -678,4 +680,54 @@ input {
 }
 .legales article h2 {
     margin: 3% 0;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * *  <!-------->  CONTACT PAGE  <---------!> * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * ** * * * * * * * * * * * */
+
+.introduction-contact {
+    padding: 5%;
+}
+.introduction-contact h1 {
+    font-size: 1.3rem;
+    padding: 5%;
+}
+
+.formulaire {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.inp, .msg-box {
+    width: 75%;
+    padding: 3%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.zone-formulaire {
+    margin: 0 4.5%;
+    padding: 7% 0;
+    background-color: #2f3438;
+    color: white;
+    border-radius: 23px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.zone-formulaire .info {
+    font-size: 1.5rem;
+    padding-bottom: 4.5%;
+}
+
+.reassure-contact img {
+    margin-top: 2%;
+    width: 100%;
 }
