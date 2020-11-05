@@ -11,7 +11,7 @@ section {
 
 }
 .product {
-  display: flex;
+  text-align: center;
 }
 .description {
   display: flex;
@@ -23,6 +23,7 @@ img {
   border-radius: 6px;
   margin: 3%;
   width: 33%;
+  max-height: 50%;
 }
 h3,
 h5 {
