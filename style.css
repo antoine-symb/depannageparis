@@ -731,3 +731,68 @@ input {
     margin-top: 2%;
     width: 100%;
 }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+                /* * * * * * * * *RESPONSIVE DESIGN: MEDIA QUERIES* * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+                /* * * * * * * * *RESPONSIVE MOBILE TO TABLET* * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+@media (min-width: 660px){
+    .anim-typewriter {
+        animation: none;
+    }
+    .reassurance {
+        display: inline-flex;
+    }
+    .nav-classic-sticky {
+        padding: 1% 0 1% 10%;
+    }
+    .home-introduction {
+        background-image: url(assets/pexels-chait-goli-2031752.jpg);
+        background-size: 100%;
+    }
+    .home-introduction h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+    }
+    .home-introduction span {
+        margin-top: -1%;
+    }
+    .reassurance, .introduction-entreprise, article .content {
+        margin: 1% 4%;
+    }
+    .visite {
+        border: 1px solid;
+        border-radius: 20px;
+        margin: 2% 4%;
+        padding: 1.5%;
+    }
+    .nav-footer {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    }
+
+
+
+
+                /* * * * * * * * *RESPONSIVE TABLET TO DESKTOP* * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+@media (min-width: 1050px){
+
+}
