@@ -1,23 +1,14 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #242d60;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-  'Helvetica Neue', 'Ubuntu', sans-serif;
-  height: 100vh;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #2f3438;
 }
+
 section {
   background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 112px;
+  width: 75%;
   border-radius: 6px;
-  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 10rem;
+
 }
 .product {
   display: flex;
@@ -27,26 +18,11 @@ section {
   flex-direction: column;
   justify-content: center;
 }
-p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: -0.154px;
-  color: #242d60;
-  height: 100%;
-  width: 100%;
-  padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
+
 img {
   border-radius: 6px;
-  margin: 10px;
-  width: 54px;
-  height: 57px;
+  margin: 3%;
+  width: 33%;
 }
 h3,
 h5 {
@@ -55,18 +31,31 @@ h5 {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.154px;
-  color: #242d60;
+  color: #2f3438;
   margin: 0;
 }
 h5 {
   opacity: 0.5;
 }
+h4 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0;
+}
+h3 {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+h5 {
+  font-size: 1rem;
+}
 #checkout-button {
-  height: 36px;
-  background: #556cd6;
+  height: 56px;
+  background: green;
+  text-transform: uppercase;
   color: white;
   width: 100%;
-  font-size: 14px;
+  font-size: 1.5rem;
   border: 0;
   font-weight: 500;
   cursor: pointer;
