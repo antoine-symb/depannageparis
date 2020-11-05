@@ -42,13 +42,15 @@ h4 {
   font-size: 3.5rem;
   text-align: center;
   margin: 0;
+  padding: 1%;
 }
 h3 {
   font-size: 2rem;
-  padding-bottom: 5%;
+  padding: 1%;
 }
 h5 {
   font-size: 1rem;
+  padding: 1% 0 3% 0;
 }
 #checkout-button {
   height: 56px;

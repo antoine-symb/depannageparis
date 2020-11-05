@@ -388,6 +388,11 @@ input {
     font-family: 'Fjalla One', sans-serif;
 }
 
+.services button a {
+    color: white;
+    text-decoration: none;
+}
+
 .services article h3 {
     font-family: 'Fjalla One', sans-serif;
     padding: 3% 0;
