@@ -1,11 +1,11 @@
 <?php
 
 require 'vendor/autoload.php';
-\Stripe\Stripe::setApiKey('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+\Stripe\Stripe::setApiKey('pk_test_51Hk5SzKxk43t0roIEOSxNtm8iuQgNi82qtzyHR5KPeDR4lcQ9OgjAfgUyHB0iPGQKfpO24QKhOptIihvYoRA3WNa00pE4hj6rA');
 
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'https://project-antoine.herokuapp.com/';
+$YOUR_DOMAIN = 'http://localhost:4242';
 
 $checkout_session = \Stripe\Checkout\Session::create([
   'payment_method_types' => ['card'],
