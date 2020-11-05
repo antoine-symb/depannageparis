@@ -14,8 +14,7 @@ $checkout_session = \Stripe\Checkout\Session::create([
       'currency' => 'eur',
       'unit_amount' => 6000,
       'product_data' => [
-        'name' => 'Prépaiement remorquage',
-        'images' => ["#"],
+        'name' => 'prépaiement',
       ],
     ],
     'quantity' => 1,
