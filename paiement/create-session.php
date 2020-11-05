@@ -1,7 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
-\Stripe\Stripe::setApiKey('sk_test_51Hk5SzKxk43t0roIR3BUMHWOsmvp1vkH2ICQFwvpBQVvgu2iLV0iGsnodG5I3sypHacQW0oDhEmhQntEKAzhFxSC00zUd8gjJn');
+\Stripe\Stripe::setApiKey('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
 header('Content-Type: application/json');
 
