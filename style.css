@@ -319,14 +319,7 @@ input {
 /* * * * * * * * * PAGE SERVICE * * * * * * * * * * */
 /* * * * * * * * * PAGE SERVICE * * * * * * * * * * */
 
-.nav-classic-sticky-services {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 0 4% 7%;
-    position: fixed;
-    border-bottom: 0.5px solid #2f3438;
-    margin-top: 2.8rem;
-}
+
 .nav-classic-sticky-services a {
     text-transform: capitalize;
     font-family: 'Fjalla One', sans-serif;
@@ -804,5 +797,91 @@ input {
 
 
 @media (min-width: 1050px){
+    body {
+       background: #2f3438;
+    }
+    main {
+        width: 70%;
+        margin: 0 auto;
+        background: white;
+    }
+    .assistance-direct {
+        display: none;
+    }
+    .content {
+        display: block;
+        border: 0;
+        padding: 0;
+    }
+    button, .container {
+        display: none;
+    }
+    .nav-classic-sticky {
+        margin: 0;
+        padding: 1% 0 1% 16%;
+    }
+    .home-introduction {
+        height: 22rem;
+    }
+    .home-introduction h1 {
+        padding: 11rem 3rem;
+    }
+    .reassurance {
+        display: flex;
+        flex-direction: column;
+    }
+    .visite {
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+    .visite h2 {
+        padding: 0 0.33%;
+    }
+    .visite h3, .visite a {
+        padding: 0 0.33%;
+    }
+    footer {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* * * * * * * * *Pages Services responsive pr desktop* * * * * * * * */
+    .services h1 {
+        padding-top: 7rem;
+    }
+    .services article h2:first-child {
+        padding: 3% 0 4% 0;
+    }
+    .equipements ul {
+        padding-left: 3%;
+    }
+    .info-details ul {
+        padding-right: 3%;
+    }
 
+    /* * * * * * * * *Pages Contact responsive pr desktop* * * * * * * * */
+    .zone-formulaire {
+        margin: 0 10rem;
+        padding: 3% 0;
+    }
+    .introduction-contact h1 {
+        padding: 1% 0;
+    }
+    .introduction-contact {
+        padding: 5% 0 1% 0;
+    }
+
+    .reassure-contact {
+        padding-bottom: 3%;
+    }
+    .reassure-contact p {
+        padding: 2%;
+    }
+    .footer-services {
+        margin-top: -5.5%;
+    }
+/* * * * * * * * *Pages tarifs responsive pr desktop* * * * * * * * */
+    .decouverte ul li {
+        padding: 1% 0;
+    }
 }
