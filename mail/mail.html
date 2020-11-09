@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chango&family=Handlee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <title>Pade de contact</title>
 </head>
 <body>
     <header>
@@ -33,29 +34,23 @@
 		<div class="info">Pour plus de renseignements</div>
 		<form action="mail_handler.php" method="post" name="form" class="form-box">
 			<label for="name">Nom</label><br>
-			<input type="text" name="name" class="inp" placeholder="Votre nom" required><br>
+			<input type="text" name="name" class="inp" id="name" placeholder="Votre nom" required><br>
 			<label for="email">Adresse e-mail</label><br>
-			<input type="email" name="email" class="inp" placeholder="Votre e-mail" required><br>
+			<input type="email" name="email" class="inp" id="email" placeholder="Votre e-mail" required><br>
 			<label for="phone">Téléphone</label><br>
-			<input type="tel" name="phone" class="inp" placeholder="Votre téléphone" required><br>
+			<input type="tel" name="phone" class="inp" id="phone" placeholder="Votre téléphone" required><br>
 			<label for="message">Message</label><br>
-			<textarea name="msg" class="msg-box" placeholder="Votre message..." required></textarea><br>
+			<textarea name="msg" class="msg-box" id="message" placeholder="Votre message..." required></textarea><br>
 			<input type="submit" name="submit" value="Envoyer" class="sub-btn">
 		</form>
     </div>
 
     <article class="reassure-contact">
-        <img src="../assets/pexels-chait-goli-2031752.jpg">
+        <img src="../assets/depannage-remorquage-paris.jpg.jpg" alt="Remorquage Depannage vehicules paris">
         <p>Partenaire agréé depuis plus d’une trentaine d’année à Paris et dans une partie de l’Île-de-France nous sommes heureux de vous proposez nos services.</p>
     </article>
     </main>
     <footer class="footer-services">
-        <div class="visite">
-          <h3>Téléphone</h3>
-          <a href="tel:XXX">+336XXXXXXX</p></a>
-          <h3>Adresse:</h3>
-          <a href="http://maps.google.com/maps?q=2 rue des 3 Pavillons, 92110 Clichy">2 rue des 3 Pavillons, 92110 Clichy</a>
-        </div>
       <nav class="nav-footer">
         <a href="../informations.html">Qui sommes-nous ?</a>
         <a href="../mentions-legales.html">Mentions légales</a>

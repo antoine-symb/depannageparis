@@ -6,15 +6,15 @@
 		$msg=$_POST['msg'];
 
 		$to='valet.antoine@gmail.com';
-		$subject='Form Submission';
-		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
-		$headers="From: ".$email;
+		$subject='demande de contact';
+		$message="Nom :".$name."\n"."Telephone :".$phone."\n"."vous a demandé :"."\n\n".$msg;
+		$headers="De: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
-			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+			echo "<h1>Message envoyé! Merci"." ".$name.", nous revenons vers vous le plus rapidemment possible</h1>";
 		}
 		else{
-			echo "Something went wrong!";
+			echo "Petite erreur!";
 		}
 	}
 ?>
