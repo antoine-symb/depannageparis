@@ -797,6 +797,9 @@ article p {
         margin: 0;
         padding: 1% 0 1% 16%;
     }
+    .nav-classic-sticky a:hover {
+        color: green;
+    }
     .home-introduction {
         height: 22rem;
     }
@@ -811,6 +814,7 @@ article p {
         border: none;
         display: flex;
         justify-content: center;
+        margin: 0;
     }
     .visite h2 {
         padding: 0 0.33%;
@@ -841,6 +845,17 @@ article p {
     .services .equipements {
         padding: 4%;
     }
+    .services {
+        margin-bottom: -1rem;
+    }
+    .services article p {
+        margin-bottom: 1%;
+        padding: 2% 0 4% 0;
+    }
+    .paiement:hover {
+        color:	#7CFC00;
+        background-color: #556B2F;
+    }
     /* * * * * * * * * * * * * * *  <!-------->  Pages Contact responsive pr desktop <---------!> * * * * * * * * * * * * * * * */
     .zone-formulaire {
         margin: 0 10rem;
@@ -862,6 +877,9 @@ article p {
     .footer-services {
         margin-top: -3%;
     }
+    .formulaire {
+        margin-bottom: 1.5rem;
+    }
     /* * * * * * * * * * * * * * *  <!-------->  Pages tarifs responsive pr desktop <---------!> * * * * * * * * * * * * * * * */
     .tarifsintroduction {
         padding: 13% 3% 3% 3%;
@@ -872,4 +890,38 @@ article p {
     .style-stripe-adapt button {
         display: block;
     }
+    tbody:hover {
+        transform: scale(1.25);
+    }
+
+
+
+    /* * * * * * * * * * * * * * *  <!-------->  Pages informations responsive pr desktop <---------!> * * * * * * * * * * * * * * * */
+    .challenge h2 {
+        margin: 0.5% 0 1% 0;
+    }
+    .challenge {
+        margin: 0;
+        padding: 0;
+    }
+    .entreprise-intervention-paris li:hover {
+        transform: scale(1.25);
+        text-transform: uppercase;
+    }
+    .nav-footer a:hover {
+        color: #2f3438 ;
+        background-color: white;
+        text-decoration: underline;
+    }
+    .nav-footer a:first-child {
+        border-left: 1px solid white;
+    }
+    .nav-footer a:last-child {
+        border-right: 1px solid white;
+    }
+    .decouverte li:hover {
+        color: green;
+    }
+    
+    
 }
