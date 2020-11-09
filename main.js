@@ -1,4 +1,4 @@
-// read more content 
+// Boutton Read More "+" 
 
 var coll = document.getElementsByClassName("readMore");
 var i;
@@ -16,7 +16,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
-// slider JS
+// Slider Homepage
 
 const slideContainer = document.querySelector('.container');
 const slide = document.querySelector('.slides');
