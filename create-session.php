@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'http://localhost:4242';
+$YOUR_DOMAIN = 'https://project-antoine.herokuapp.com/stripe-sample-code';
 
 $checkout_session = \Stripe\Checkout\Session::create([
   'payment_method_types' => ['card'],

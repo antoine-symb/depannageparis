@@ -890,4 +890,10 @@ article p {
     .decouverte ul li {
         padding: 1% 0;
     }
+
+
+    /* fix button stripe checkout desktop*/
+    .style-stripe-adapt button {
+        display: block;
+    }
 }
