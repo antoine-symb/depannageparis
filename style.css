@@ -675,11 +675,11 @@ article p {
     width: 100%;
 }
 /* style stripe paiement */
-body {
+.style-stripe-adapt {
     background: #2f3438;
   }
   
-  section {
+  .style-stripe-adapt section {
     background: #ffffff;
     width: 75%;
     border-radius: 6px;
@@ -687,23 +687,23 @@ body {
     margin-top: 10rem;
   
   }
-  .product {
+  .style-stripe-adapt .product {
     text-align: center;
   }
-  .description {
+  .style-stripe-adapt .description {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   
-  img {
+  .style-stripe-adapt img {
     border-radius: 6px;
     margin: 3%;
     width: 33%;
     max-height: 50%;
   }
-  h3,
-  h5 {
+  .style-stripe-adapt h3,
+  .style-stripe-adapt h5 {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -712,24 +712,24 @@ body {
     color: #2f3438;
     margin: 0;
   }
-  h5 {
+  .style-stripe-adapt h5 {
     opacity: 0.5;
   }
-  h4 {
+  .style-stripe-adapt h4 {
     font-size: 3.5rem;
     text-align: center;
     margin: 0;
     padding: 1%;
   }
-  h3 {
+  .style-stripe-adapt h3 {
     font-size: 2rem;
     padding: 1%;
   }
-  h5 {
+  .style-stripe-adapt h5 {
     font-size: 1rem;
     padding: 1% 0 3% 0;
   }
-  #checkout-button {
+  .style-stripe-adapt #checkout-button {
     height: 56px;
     background: green;
     text-transform: uppercase;
@@ -744,7 +744,7 @@ body {
     transition: all 0.2s ease;
     box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
   }
-  #checkout-button:hover {
+  .style-stripe-adapt #checkout-button:hover {
     opacity: 0.8;
   }
   
