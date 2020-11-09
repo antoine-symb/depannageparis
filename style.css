@@ -796,6 +796,18 @@ article p {
         width: 100%;
         text-align: center;
     }
+
+    /* page mail */
+    .zone-formulaire {
+    width: 65%;
+    margin: 0 auto;
+    }
+
+
+    /* page services */
+    .services article h2:first-child {
+        padding: 6% 0 4% 0;
+    }
     }
 
                 /* * * * * * * * *RESPONSIVE TABLET TO DESKTOP* * * * * * * * */
@@ -884,7 +896,7 @@ article p {
         padding: 2%;
     }
     .footer-services {
-        margin-top: -5.5%;
+        margin-top: -3%;
     }
 /* * * * * * * * *Pages tarifs responsive pr desktop* * * * * * * * */
     .decouverte ul li {
